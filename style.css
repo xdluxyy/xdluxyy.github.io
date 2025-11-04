@@ -132,10 +132,27 @@ h2 {
   bottom: 25px;
 }
 
-.join-btn:hover {
-  transform: translateX(-50%) scale(1.05);
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+..join-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(135deg, #5865f2, #7289da);
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  opacity: 1;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+.join-btn:hover {
+  background: linear-gradient(135deg, #6a76f7, #8396e8);
+  box-shadow: 0 0 12px rgba(88, 101, 242, 0.6);
+  transform: translateX(-50%) scale(1.05);
+}
+
 
 /* Footer */
 footer {
