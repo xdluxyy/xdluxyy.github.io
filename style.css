@@ -84,6 +84,22 @@ h2 {
   box-shadow: 0 3px 8px rgba(0,0,0,0.05);
   transition: transform 0.3s, box-shadow 0.3s;
 }
+.project-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  background: #f0f7ff;
+}
+
 
 .project-card:hover {
   transform: translateY(-5px);
