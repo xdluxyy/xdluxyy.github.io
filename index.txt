@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>xdluxyy — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>About <span class="blue">xdluxyy</span></h1>
+    <p>Building innovative digital experiences — bots, servers, and creative systems since 2025.</p>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>Our Beginning → Now</h2>
+      <p>Founded in early 2025, <span class="blue">xdluxyy</span> began as a solo creative developer focused on building high-quality digital projects across Discord and Roblox communities. From bot automation to full server ecosystems, every creation reflects a focus on quality, innovation, and design.</p>
+
+      <div class="timeline">
+        <div class="year">
+          <h3>2025</h3>
+          <p>Launch of <strong>GuildWorks</strong> — a professional Discord server creation service, followed by the release of two custom bots: <strong>Lumen Moderation</strong> and <strong>Lumen Utility</strong>. Later that year, the <strong>Kenomico</strong> bot joined the lineup, focusing on automation and customization for community growth.</p>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div><h3>3+</h3><p>Active Projects</p></div>
+        <div><h3>1+</h3><p>Year of Experience</p></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>GuildWorks</h3>
+          <p>Custom Discord server creation and branding studio. Focused on premium setup, roles, and automation.</p>
+        </div>
+        <div class="project-card">
+          <h3>Lumen Bot</h3>
+          <p>Two powerful moderation and utility bots for Discord servers with professional embeds and logging.</p>
+        </div>
+        <div class="project-card">
+          <h3>Kenomico</h3>
+          <p>Smart automation bot offering unique ticketing, verification, and role features for community servers.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 xdluxyy | Crafted with 💻 JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
