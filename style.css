@@ -84,16 +84,38 @@ h2 {
   box-shadow: 0 3px 8px rgba(0,0,0,0.05);
   transition: transform 0.3s, box-shadow 0.3s;
 }
-.project-card {
-  display: block;
+.project-grid a {
   text-decoration: none;
   color: inherit;
+}
+
+.project-card {
   background: white;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+  text-align: left;
+  display: block;
 }
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #f5f9ff, #eef7ff);
+  cursor: pointer;
+}
+
+.project-card h3 {
+  color: #111;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  color: #333;
+  line-height: 1.5;
+}
+
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 16px rgba(0,0,0,0.1);
