@@ -50,19 +50,19 @@ header h1 {
 
 /* ===== ABOUT SECTION ===== */
 #about {
-  margin-top: 35px;
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .about-box {
   background: #ffffff;
-  padding: 50px 60px;
   width: 1100px;
   max-width: 92vw;
+  padding: 50px 60px;
   border-radius: 30px;
-  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.12);
 }
 
 .about-box h2 {
@@ -75,10 +75,10 @@ header h1 {
   font-size: 19px;
   line-height: 1.6;
   color: #374151;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
-/* timeline block */
+/* timeline card inside about */
 .timeline-box {
   display: flex;
   align-items: flex-start;
@@ -92,22 +92,22 @@ header h1 {
 .timeline-year {
   font-size: 24px;
   font-weight: 800;
-  color: #111827;
   margin-right: 18px;
+  color: #111827;
 }
 
 .timeline-text {
   font-size: 19px;
   color: #374151;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
-/* stats row */
+/* stats */
 .stats {
   display: flex;
   justify-content: center;
-  gap: 220px;
-  margin-top: 10px;
+  gap: 250px;
+  margin-top: 15px;
 }
 
 .stat-number {
@@ -118,10 +118,10 @@ header h1 {
 }
 
 .stat-label {
+  margin-top: 4px;
   font-size: 16px;
   color: #6b7280;
   text-align: center;
-  margin-top: 4px;
 }
 
 /* ===== PROJECTS ===== */
